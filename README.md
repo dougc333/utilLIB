@@ -9,3 +9,12 @@ Verify setup with default eslint rules and vscode plugin errorlens
 'Bastila Shan'
 >require('./src/index.js').all
 ... lists contents of json file
+Need prettier+lint?
+Which eslint rules?
+
+## Step 1a
+
+configure eslint. .eslintrc is deprecated
+configure .eslintignoore
+configure jshint
+add a JEST
