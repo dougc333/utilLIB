@@ -4,8 +4,9 @@
   "description": "utilities",
   "main": "dist/index.js",
   "scripts": {
-    "lint" : "eslint .",
-    "test": "mocha"
+    "lint": "eslint src",
+    "test": "mocha",
+    "tw":"mocha --watch"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,9 @@
   },
   "homepage": "https://github.com/dougc333/utilLIB#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "eslint": "^8.57.0",
+    "mocha": "^3.0.0",
     "unique-random-array": "^1.0.0"
   }
 }

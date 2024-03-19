@@ -3,18 +3,16 @@
 ## Step 1 Run node to verify API works
 
 - Verify eslint setup wih .eslintignore and .eslintrc
-- Verify simple API
-- Verify setup with default eslint rules and vscode plugin errorlens
+- Verify simple API works with node
 - > require('./src/index.js').random()
 - 'Bastila Shan'
 - >require('./src/index.js').all
-- ... lists contents of json file
-Need prettier+lint?
-Which eslint rules?
 
-## Step 1a
 
-- configure eslint. .eslintrc is deprecated
-- configure .eslintignoore
-- configure jshint
-- add a JEST
+- configure eslint with eslintrc.json or eslint.yaml or eslint.config.js. .eslintrc is deprecated
+- configure .eslintignore with node_modules/
+-	Run 
+	- npm run test which runs mocha/chai
+
+## Step 2 Configure code coverage
+

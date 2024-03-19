@@ -1,0 +1,21 @@
+{
+  "env":["node","browser"],
+  "root": true,
+  "extends": [
+    "eslint:recommended"
+  ],
+	"rules":{
+    "array-callback-return":2,
+    "prefer-const": 1,
+    "no-debugger": 1,
+    "eqeqeq":["error","always",{"null":"ignore"}],
+    "no-else-return": 0,
+    "no-labels":1,
+    "no-eval": 1,
+    "no-extend-native": 1,
+    "no-extra-bind": 0
+	},
+  "parserOptions": {
+    "ecmaVersion": 2018
+  }
+}
