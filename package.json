@@ -1,0 +1,23 @@
+{
+  "name": "utillib",
+  "version": "1.0.0",
+  "description": "utilities",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougc333/utilLIB.git"
+  },
+  "keywords": [
+    "util",
+    "lib"
+  ],
+  "author": "dougc333",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dougc333/utilLIB/issues"
+  },
+  "homepage": "https://github.com/dougc333/utilLIB#readme"
+}
