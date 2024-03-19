@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src",
-    "test": "mocha",
-    "tw":"mocha --watch"
+    "test": "nyc mocha",
+    "tw": "mocha --watch"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,27 @@
   },
   "homepage": "https://github.com/dougc333/utilLIB#readme",
   "devDependencies": {
+    "babel-register": "^6.11.6",
     "chai": "^3.5.0",
+    "codecov": "^1.0.1",
     "eslint": "^8.57.0",
     "mocha": "^3.0.0",
+    "nyc": "^7.1.0",
     "unique-random-array": "^1.0.0"
+  },
+  "nyc": {
+    "all": true,
+    "check-coverage": true,
+    "branches": 100,
+    "function": 100,
+    "lines": 100,
+    "statements": 100,
+    "reporter": [
+      "text",
+      "lcov"
+    ],
+    "include": [
+      "src"
+    ]
   }
 }
