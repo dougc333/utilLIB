@@ -4,6 +4,7 @@
   "description": "utilities",
   "main": "dist/index.js",
   "scripts": {
+    "lint" : "eslint .",
     "test": "mocha"
   },
   "repository": {
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/dougc333/utilLIB/issues"
   },
-  "homepage": "https://github.com/dougc333/utilLIB#readme"
+  "homepage": "https://github.com/dougc333/utilLIB#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "unique-random-array": "^1.0.0"
+  }
 }
