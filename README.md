@@ -11,8 +11,9 @@
 
 - configure eslint with eslintrc.json or eslint.yaml or eslint.config.js. .eslintrc is deprecated
 - configure .eslintignore with node_modules/
--	Run 
+-	Run
 	- npm run test which runs mocha/chai
 
 ## Step 2 Configure code coverage
 
+  Download and install nyc and add config to package.json. Do not add nyc babel config.
