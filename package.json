@@ -6,7 +6,13 @@
   "scripts": {
     "lint": "eslint src",
     "test": "nyc mocha",
-    "tw": "mocha --watch"
+    "tw": "mocha --watch",
+    "validate": "npm run lint && npm run test"
+  },
+  "config":{
+    "ghooks":{
+      "pre-commit":"npm run validate"
+    }
   },
   "repository": {
     "type": "git",
@@ -27,6 +33,7 @@
     "chai": "^3.5.0",
     "codecov": "^1.0.1",
     "eslint": "^8.57.0",
+    "ghooks": "^1.3.2",
     "mocha": "^3.0.0",
     "nyc": "^7.1.0",
     "unique-random-array": "^1.0.0"

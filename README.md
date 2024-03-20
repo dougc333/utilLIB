@@ -17,3 +17,7 @@
 ## Step 2 Configure code coverage
 
   Download and install nyc and add config to package.json. Do not add nyc babel config.
+
+## Step 3 githooks to run validate
+
+ annoying when you forget to run test before commit. 
